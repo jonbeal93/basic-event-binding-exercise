@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'basic-event-binding-exercise';
+  onShow(){
+    console.log("this works")
+  }
 }
